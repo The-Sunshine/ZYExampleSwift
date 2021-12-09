@@ -1,0 +1,6 @@
+framework module Pods_ZYExampleSwift_ZYExampleSwiftUITests {
+  umbrella header "Pods-ZYExampleSwift-ZYExampleSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
