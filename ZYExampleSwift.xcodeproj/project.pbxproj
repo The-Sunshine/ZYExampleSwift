@@ -10,48 +10,21 @@
 		22CFC4712761F71A008AF986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4702761F71A008AF986 /* AppDelegate.swift */; };
 		22CFC4732761F71A008AF986 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4722761F71A008AF986 /* SceneDelegate.swift */; };
 		22CFC4752761F71A008AF986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4742761F71A008AF986 /* ViewController.swift */; };
-		22CFC4782761F71A008AF986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFC4762761F71A008AF986 /* Main.storyboard */; };
 		22CFC47A2761F71B008AF986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CFC4792761F71B008AF986 /* Assets.xcassets */; };
 		22CFC47D2761F71B008AF986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFC47B2761F71B008AF986 /* LaunchScreen.storyboard */; };
-		22CFC4882761F71B008AF986 /* ZYExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4872761F71B008AF986 /* ZYExampleSwiftTests.swift */; };
-		22CFC4922761F71B008AF986 /* ZYExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4912761F71B008AF986 /* ZYExampleSwiftUITests.swift */; };
-		22CFC4942761F71B008AF986 /* ZYExampleSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4932761F71B008AF986 /* ZYExampleSwiftUITestsLaunchTests.swift */; };
-		786246496A2DDF0B490216AA /* Pods_ZYExampleSwift_ZYExampleSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E68AC6B10AC59D7B1A4F9CF /* Pods_ZYExampleSwift_ZYExampleSwiftUITests.framework */; };
-		82BE528D6A59F1E57591B77A /* Pods_ZYExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7429CC063FC2C6A7382242 /* Pods_ZYExampleSwift.framework */; };
-		A0F4D88E62AA38BFCB0D11B4 /* Pods_ZYExampleSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429F67CDDA496367AAB12FC4 /* Pods_ZYExampleSwiftTests.framework */; };
+		22CFC4C027689A5F008AF986 /* ZYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */; };
+		82BE528D6A59F1E57591B77A /* Pods_ZYExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7429CC063FC2C6A7382242 /* Pods_ZYExampleSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		22CFC4842761F71B008AF986 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22CFC4652761F719008AF986 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22CFC46C2761F71A008AF986;
-			remoteInfo = ZYExampleSwift;
-		};
-		22CFC48E2761F71B008AF986 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22CFC4652761F719008AF986 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22CFC46C2761F71A008AF986;
-			remoteInfo = ZYExampleSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		22CFC46D2761F71A008AF986 /* ZYExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CFC4702761F71A008AF986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22CFC4722761F71A008AF986 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22CFC4742761F71A008AF986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22CFC4772761F71A008AF986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22CFC4792761F71B008AF986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CFC47C2761F71B008AF986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22CFC47E2761F71B008AF986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22CFC4832761F71B008AF986 /* ZYExampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYExampleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22CFC4872761F71B008AF986 /* ZYExampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYExampleSwiftTests.swift; sourceTree = "<group>"; };
-		22CFC48D2761F71B008AF986 /* ZYExampleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYExampleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22CFC4912761F71B008AF986 /* ZYExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYExampleSwiftUITests.swift; sourceTree = "<group>"; };
-		22CFC4932761F71B008AF986 /* ZYExampleSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYExampleSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTabBarController.swift; sourceTree = "<group>"; };
 		24339234DB4A9F38EB92B5CB /* Pods-ZYExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-ZYExampleSwift/Pods-ZYExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		429F67CDDA496367AAB12FC4 /* Pods_ZYExampleSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYExampleSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5714B6126319DE217029DED0 /* Pods-ZYExampleSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYExampleSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-ZYExampleSwiftTests/Pods-ZYExampleSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,22 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22CFC4802761F71B008AF986 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0F4D88E62AA38BFCB0D11B4 /* Pods_ZYExampleSwiftTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CFC48A2761F71B008AF986 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				786246496A2DDF0B490216AA /* Pods_ZYExampleSwift_ZYExampleSwiftUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				22CFC46F2761F71A008AF986 /* ZYExampleSwift */,
-				22CFC4862761F71B008AF986 /* ZYExampleSwiftTests */,
-				22CFC4902761F71B008AF986 /* ZYExampleSwiftUITests */,
 				22CFC46E2761F71A008AF986 /* Products */,
 				4FB7060D6801BCAC22FAF62E /* Pods */,
 				DE8E98A06D6E90ADC5511B5C /* Frameworks */,
@@ -107,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				22CFC46D2761F71A008AF986 /* ZYExampleSwift.app */,
-				22CFC4832761F71B008AF986 /* ZYExampleSwiftTests.xctest */,
-				22CFC48D2761F71B008AF986 /* ZYExampleSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,29 +72,68 @@
 				22CFC4702761F71A008AF986 /* AppDelegate.swift */,
 				22CFC4722761F71A008AF986 /* SceneDelegate.swift */,
 				22CFC4742761F71A008AF986 /* ViewController.swift */,
-				22CFC4762761F71A008AF986 /* Main.storyboard */,
-				22CFC4792761F71B008AF986 /* Assets.xcassets */,
-				22CFC47B2761F71B008AF986 /* LaunchScreen.storyboard */,
-				22CFC47E2761F71B008AF986 /* Info.plist */,
+				22CFC5062768D98F008AF986 /* BaseKit */,
+				22CFC50B2768D9C7008AF986 /* Categorys */,
+				22CFC50C2768D9E2008AF986 /* Resource */,
+				22CFC5072768D9A6008AF986 /* Lib */,
+				22CFC5082768D9AE008AF986 /* Macro */,
+				22CFC5092768D9B7008AF986 /* Module */,
+				22CFC50A2768D9BD008AF986 /* Service */,
 			);
 			path = ZYExampleSwift;
 			sourceTree = "<group>";
 		};
-		22CFC4862761F71B008AF986 /* ZYExampleSwiftTests */ = {
+		22CFC5062768D98F008AF986 /* BaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				22CFC4872761F71B008AF986 /* ZYExampleSwiftTests.swift */,
+				22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */,
 			);
-			path = ZYExampleSwiftTests;
+			path = BaseKit;
 			sourceTree = "<group>";
 		};
-		22CFC4902761F71B008AF986 /* ZYExampleSwiftUITests */ = {
+		22CFC5072768D9A6008AF986 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				22CFC4912761F71B008AF986 /* ZYExampleSwiftUITests.swift */,
-				22CFC4932761F71B008AF986 /* ZYExampleSwiftUITestsLaunchTests.swift */,
 			);
-			path = ZYExampleSwiftUITests;
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		22CFC5082768D9AE008AF986 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		22CFC5092768D9B7008AF986 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		22CFC50A2768D9BD008AF986 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		22CFC50B2768D9C7008AF986 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		22CFC50C2768D9E2008AF986 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				22CFC4792761F71B008AF986 /* Assets.xcassets */,
+				22CFC47E2761F71B008AF986 /* Info.plist */,
+				22CFC47B2761F71B008AF986 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		4FB7060D6801BCAC22FAF62E /* Pods */ = {
@@ -189,45 +181,6 @@
 			productReference = 22CFC46D2761F71A008AF986 /* ZYExampleSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22CFC4822761F71B008AF986 /* ZYExampleSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22CFC49A2761F71B008AF986 /* Build configuration list for PBXNativeTarget "ZYExampleSwiftTests" */;
-			buildPhases = (
-				4DA275908D83120C1B8A1B1E /* [CP] Check Pods Manifest.lock */,
-				22CFC47F2761F71B008AF986 /* Sources */,
-				22CFC4802761F71B008AF986 /* Frameworks */,
-				22CFC4812761F71B008AF986 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22CFC4852761F71B008AF986 /* PBXTargetDependency */,
-			);
-			name = ZYExampleSwiftTests;
-			productName = ZYExampleSwiftTests;
-			productReference = 22CFC4832761F71B008AF986 /* ZYExampleSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		22CFC48C2761F71B008AF986 /* ZYExampleSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22CFC49D2761F71B008AF986 /* Build configuration list for PBXNativeTarget "ZYExampleSwiftUITests" */;
-			buildPhases = (
-				7BB0A6345D5D713554FE887B /* [CP] Check Pods Manifest.lock */,
-				22CFC4892761F71B008AF986 /* Sources */,
-				22CFC48A2761F71B008AF986 /* Frameworks */,
-				22CFC48B2761F71B008AF986 /* Resources */,
-				D0C2D6C61CE72A0E117040BC /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22CFC48F2761F71B008AF986 /* PBXTargetDependency */,
-			);
-			name = ZYExampleSwiftUITests;
-			productName = ZYExampleSwiftUITests;
-			productReference = 22CFC48D2761F71B008AF986 /* ZYExampleSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,19 +188,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ZY;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					22CFC46C2761F71A008AF986 = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					22CFC4822761F71B008AF986 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 22CFC46C2761F71A008AF986;
-					};
-					22CFC48C2761F71B008AF986 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 22CFC46C2761F71A008AF986;
 					};
 				};
 			};
@@ -265,8 +211,6 @@
 			projectRoot = "";
 			targets = (
 				22CFC46C2761F71A008AF986 /* ZYExampleSwift */,
-				22CFC4822761F71B008AF986 /* ZYExampleSwiftTests */,
-				22CFC48C2761F71B008AF986 /* ZYExampleSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,21 +222,6 @@
 			files = (
 				22CFC47D2761F71B008AF986 /* LaunchScreen.storyboard in Resources */,
 				22CFC47A2761F71B008AF986 /* Assets.xcassets in Resources */,
-				22CFC4782761F71A008AF986 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CFC4812761F71B008AF986 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CFC48B2761F71B008AF986 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,67 +267,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYExampleSwift/Pods-ZYExampleSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4DA275908D83120C1B8A1B1E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZYExampleSwiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BB0A6345D5D713554FE887B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZYExampleSwift-ZYExampleSwiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D0C2D6C61CE72A0E117040BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZYExampleSwift-ZYExampleSwiftUITests/Pods-ZYExampleSwift-ZYExampleSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZYExampleSwift-ZYExampleSwiftUITests/Pods-ZYExampleSwift-ZYExampleSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYExampleSwift-ZYExampleSwiftUITests/Pods-ZYExampleSwift-ZYExampleSwiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -408,51 +276,14 @@
 			files = (
 				22CFC4752761F71A008AF986 /* ViewController.swift in Sources */,
 				22CFC4712761F71A008AF986 /* AppDelegate.swift in Sources */,
+				22CFC4C027689A5F008AF986 /* ZYTabBarController.swift in Sources */,
 				22CFC4732761F71A008AF986 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CFC47F2761F71B008AF986 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22CFC4882761F71B008AF986 /* ZYExampleSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CFC4892761F71B008AF986 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22CFC4942761F71B008AF986 /* ZYExampleSwiftUITestsLaunchTests.swift in Sources */,
-				22CFC4922761F71B008AF986 /* ZYExampleSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		22CFC4852761F71B008AF986 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22CFC46C2761F71A008AF986 /* ZYExampleSwift */;
-			targetProxy = 22CFC4842761F71B008AF986 /* PBXContainerItemProxy */;
-		};
-		22CFC48F2761F71B008AF986 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22CFC46C2761F71A008AF986 /* ZYExampleSwift */;
-			targetProxy = 22CFC48E2761F71B008AF986 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		22CFC4762761F71A008AF986 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22CFC4772761F71A008AF986 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22CFC47B2761F71B008AF986 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -589,10 +420,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZYExampleSwift/Info.plist;
+				INFOPLIST_FILE = ZYExampleSwift/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -618,10 +449,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZYExampleSwift/Info.plist;
+				INFOPLIST_FILE = ZYExampleSwift/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -635,102 +466,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		22CFC49B2761F71B008AF986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5714B6126319DE217029DED0 /* Pods-ZYExampleSwiftTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYExampleSwift.app/ZYExampleSwift";
-			};
-			name = Debug;
-		};
-		22CFC49C2761F71B008AF986 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF300CA5137710B1DA41438A /* Pods-ZYExampleSwiftTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYExampleSwift.app/ZYExampleSwift";
-			};
-			name = Release;
-		};
-		22CFC49E2761F71B008AF986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F66FA4B12C6FC34D7D736DFD /* Pods-ZYExampleSwift-ZYExampleSwiftUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZYExampleSwift;
-			};
-			name = Debug;
-		};
-		22CFC49F2761F71B008AF986 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B21475289953B03184EE4F /* Pods-ZYExampleSwift-ZYExampleSwiftUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZYExampleSwift;
 			};
 			name = Release;
 		};
@@ -751,24 +486,6 @@
 			buildConfigurations = (
 				22CFC4982761F71B008AF986 /* Debug */,
 				22CFC4992761F71B008AF986 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22CFC49A2761F71B008AF986 /* Build configuration list for PBXNativeTarget "ZYExampleSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CFC49B2761F71B008AF986 /* Debug */,
-				22CFC49C2761F71B008AF986 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22CFC49D2761F71B008AF986 /* Build configuration list for PBXNativeTarget "ZYExampleSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CFC49E2761F71B008AF986 /* Debug */,
-				22CFC49F2761F71B008AF986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

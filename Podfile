@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'ZYExampleSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -13,7 +13,6 @@ target 'ZYExampleSwift' do
   pod 'Kingfisher'  # 图片加载
   pod 'SnapKit'     # 自动布局
   pod 'PromiseKit'  # 异步开发
-  pod 'Quick'       # 单元测试框架
   pod 'R.swift'     # 资源加载
   pod 'Then'        # 初始化库 语法糖
   pod 'Reusable'    # 协议+泛型
@@ -31,7 +30,8 @@ target 'ZYExampleSwift' do
 
   # SwiftLint 强制检查 Swift 代码风格和规定的工具
   # 30DaysofSwift
-  
+  #  pod 'Quick'       # 单元测试框架 需要XCTest
+
   
   # OC
   pod 'UINavigation-SXFixSpace'

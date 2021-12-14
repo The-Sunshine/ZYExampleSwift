@@ -27,7 +27,6 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.15.3):
     - PromiseKit/CorePromise
-  - Quick (4.0.0)
   - R.swift (6.1.0):
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
@@ -59,7 +58,6 @@ DEPENDENCIES:
   - Moya
   - PhoneNumberKit
   - PromiseKit
-  - Quick
   - R.swift
   - Reusable
   - RxSwift
@@ -85,7 +83,6 @@ SPEC REPOS:
     - Moya
     - PhoneNumberKit
     - PromiseKit
-    - Quick
     - R.swift
     - R.swift.Library
     - Reusable
@@ -111,7 +108,6 @@ SPEC CHECKSUMS:
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   PhoneNumberKit: 4ce83273551c4d2ae10b7361162f4283dd02835f
   PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
-  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
   R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
@@ -125,6 +121,6 @@ SPEC CHECKSUMS:
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
 
-PODFILE CHECKSUM: 8cda2218a8ed1b80b07604ad6eab2cddd2760cee
+PODFILE CHECKSUM: b7ef7fe6176770aa2421bbbab07a7da745a646e9
 
 COCOAPODS: 1.11.2

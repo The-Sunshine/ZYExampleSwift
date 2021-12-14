@@ -1,6 +1,0 @@
-framework module Pods_ZYExampleSwiftTests {
-  umbrella header "Pods-ZYExampleSwiftTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
