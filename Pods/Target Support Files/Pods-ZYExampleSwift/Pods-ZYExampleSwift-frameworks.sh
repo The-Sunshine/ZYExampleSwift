@@ -178,7 +178,6 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework"
@@ -197,12 +196,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework"
@@ -221,7 +218,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Then/Then.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

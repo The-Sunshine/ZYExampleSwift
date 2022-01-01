@@ -26,7 +26,8 @@ target 'ZYExampleSwift' do
   pod 'EmptyDataSet-Swift'      # 空白页
   pod 'LLCycleScrollView'       # 轮播图
   pod 'SnapKitExtend'           # SnapKit的扩展
-  pod 'ESTabBarController-swift'# 高度自定义的TabBarController组件
+#  pod 'RAMAnimatedTabBarController' # TabBarController动画
+#  pod 'ESTabBarController-swift'# 高度自定义的TabBarController组件
 
   # SwiftLint 强制检查 Swift 代码风格和规定的工具
   # 30DaysofSwift
@@ -34,11 +35,11 @@ target 'ZYExampleSwift' do
 
   
   # OC
-  pod 'UINavigation-SXFixSpace'
+#  pod 'UINavigation-SXFixSpace'
   
   
   
   
-  
+#  https://github.com/DarielChen/iOSTips swift learn
 
 end

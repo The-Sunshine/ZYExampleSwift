@@ -7,24 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22274D1E277EE68E0027D4DA /* ZYVender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22274D1D277EE68E0027D4DA /* ZYVender.swift */; };
+		22274D22277EEF160027D4DA /* ZYEnvironmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22274D21277EEF160027D4DA /* ZYEnvironmentService.swift */; };
+		2233150B2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233150A2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift */; };
+		2233151327802C3A00097CF2 /* ZYMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233151227802C3A00097CF2 /* ZYMacro.swift */; };
+		22331515278030E300097CF2 /* UIColor+ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22331514278030E300097CF2 /* UIColor+ZYExtension.swift */; };
+		22331519278037DE00097CF2 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22331517278037DE00097CF2 /* WRNavigationBar.swift */; };
+		2233151A278037DE00097CF2 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22331518278037DE00097CF2 /* WRCustomNavigationBar.swift */; };
+		224F44F8277EC61300F36F3D /* ZYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F44F7277EC61300F36F3D /* ZYMineViewController.swift */; };
+		224F44FB277EC69400F36F3D /* ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F44FA277EC69400F36F3D /* ZYDisplayCurrentVC.swift */; };
+		224F4501277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F4500277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift */; };
+		2259408027808B8F00245BAC /* ZYSwiftSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259407F27808B8F00245BAC /* ZYSwiftSwizzling.swift */; };
+		229DA82D277F15F000559B8E /* ZYSwiftDispatchKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DA82C277F15F000559B8E /* ZYSwiftDispatchKit.swift */; };
+		229DA82F277F1E7400559B8E /* UIViewController+ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DA82E277F1E7400559B8E /* UIViewController+ZYExtension.swift */; };
+		229DA831277F1E8D00559B8E /* UIApplication+ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DA830277F1E8D00559B8E /* UIApplication+ZYExtension.swift */; };
+		229DA837277F3E1800559B8E /* ZYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DA836277F3E1800559B8E /* ZYButton.swift */; };
 		22CFC4712761F71A008AF986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4702761F71A008AF986 /* AppDelegate.swift */; };
 		22CFC4732761F71A008AF986 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4722761F71A008AF986 /* SceneDelegate.swift */; };
-		22CFC4752761F71A008AF986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4742761F71A008AF986 /* ViewController.swift */; };
 		22CFC47A2761F71B008AF986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CFC4792761F71B008AF986 /* Assets.xcassets */; };
 		22CFC47D2761F71B008AF986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFC47B2761F71B008AF986 /* LaunchScreen.storyboard */; };
 		22CFC4C027689A5F008AF986 /* ZYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */; };
+		22CFC50E276A0347008AF986 /* ZYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC50D276A0347008AF986 /* ZYNavigationController.swift */; };
+		22CFC510276A038A008AF986 /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC50F276A038A008AF986 /* ZYBaseViewController.swift */; };
+		22CFC512276A03A6008AF986 /* ZYDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFC511276A03A6008AF986 /* ZYDemoViewController.swift */; };
 		82BE528D6A59F1E57591B77A /* Pods_ZYExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7429CC063FC2C6A7382242 /* Pods_ZYExampleSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22274D1D277EE68E0027D4DA /* ZYVender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYVender.swift; sourceTree = "<group>"; };
+		22274D21277EEF160027D4DA /* ZYEnvironmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYEnvironmentService.swift; sourceTree = "<group>"; };
+		2233150A2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ZYSwiftLoadFunction.swift"; sourceTree = "<group>"; };
+		2233151227802C3A00097CF2 /* ZYMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYMacro.swift; sourceTree = "<group>"; };
+		22331514278030E300097CF2 /* UIColor+ZYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ZYExtension.swift"; sourceTree = "<group>"; };
+		22331517278037DE00097CF2 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		22331518278037DE00097CF2 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		224F44F7277EC61300F36F3D /* ZYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYMineViewController.swift; sourceTree = "<group>"; };
+		224F44FA277EC69400F36F3D /* ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYDisplayCurrentVC.swift; sourceTree = "<group>"; };
+		224F4500277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZYDisplayCurrentVC.swift"; sourceTree = "<group>"; };
+		2259407F27808B8F00245BAC /* ZYSwiftSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYSwiftSwizzling.swift; sourceTree = "<group>"; };
+		229DA82C277F15F000559B8E /* ZYSwiftDispatchKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSwiftDispatchKit.swift; sourceTree = "<group>"; };
+		229DA82E277F1E7400559B8E /* UIViewController+ZYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZYExtension.swift"; sourceTree = "<group>"; };
+		229DA830277F1E8D00559B8E /* UIApplication+ZYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+ZYExtension.swift"; sourceTree = "<group>"; };
+		229DA836277F3E1800559B8E /* ZYButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYButton.swift; sourceTree = "<group>"; };
 		22CFC46D2761F71A008AF986 /* ZYExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CFC4702761F71A008AF986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22CFC4722761F71A008AF986 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22CFC4742761F71A008AF986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22CFC4792761F71B008AF986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CFC47C2761F71B008AF986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22CFC47E2761F71B008AF986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTabBarController.swift; sourceTree = "<group>"; };
+		22CFC50D276A0347008AF986 /* ZYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYNavigationController.swift; sourceTree = "<group>"; };
+		22CFC50F276A038A008AF986 /* ZYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseViewController.swift; sourceTree = "<group>"; };
+		22CFC511276A03A6008AF986 /* ZYDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYDemoViewController.swift; sourceTree = "<group>"; };
 		24339234DB4A9F38EB92B5CB /* Pods-ZYExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-ZYExampleSwift/Pods-ZYExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		429F67CDDA496367AAB12FC4 /* Pods_ZYExampleSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYExampleSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5714B6126319DE217029DED0 /* Pods-ZYExampleSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYExampleSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-ZYExampleSwiftTests/Pods-ZYExampleSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +82,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22274D1F277EEE2E0027D4DA /* ZYButton */ = {
+			isa = PBXGroup;
+			children = (
+				229DA836277F3E1800559B8E /* ZYButton.swift */,
+			);
+			path = ZYButton;
+			sourceTree = "<group>";
+		};
+		22274D20277EEE3D0027D4DA /* ZYEnvironmentService */ = {
+			isa = PBXGroup;
+			children = (
+				22274D21277EEF160027D4DA /* ZYEnvironmentService.swift */,
+			);
+			path = ZYEnvironmentService;
+			sourceTree = "<group>";
+		};
+		223315092780296D00097CF2 /* ZYSwiftLoadFunction */ = {
+			isa = PBXGroup;
+			children = (
+				2233150A2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift */,
+			);
+			path = ZYSwiftLoadFunction;
+			sourceTree = "<group>";
+		};
+		2233150C2780299000097CF2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				229DA82E277F1E7400559B8E /* UIViewController+ZYExtension.swift */,
+				229DA830277F1E8D00559B8E /* UIApplication+ZYExtension.swift */,
+				22331514278030E300097CF2 /* UIColor+ZYExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2233150D2780299C00097CF2 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		22331516278037DE00097CF2 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				22331517278037DE00097CF2 /* WRNavigationBar.swift */,
+				22331518278037DE00097CF2 /* WRCustomNavigationBar.swift */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		224F44F4277EC59600F36F3D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				22CFC4702761F71A008AF986 /* AppDelegate.swift */,
+				22CFC4722761F71A008AF986 /* SceneDelegate.swift */,
+				224F44F9277EC64E00F36F3D /* Navi&Tab */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		224F44F5277EC5D600F36F3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22CFC511276A03A6008AF986 /* ZYDemoViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		224F44F6277EC5DC00F36F3D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				224F44F7277EC61300F36F3D /* ZYMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		224F44F9277EC64E00F36F3D /* Navi&Tab */ = {
+			isa = PBXGroup;
+			children = (
+				22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */,
+				22CFC50D276A0347008AF986 /* ZYNavigationController.swift */,
+			);
+			path = "Navi&Tab";
+			sourceTree = "<group>";
+		};
+		224F4506277ED24F00F36F3D /* ZYDisplayCurrentVC */ = {
+			isa = PBXGroup;
+			children = (
+				224F44FA277EC69400F36F3D /* ZYDisplayCurrentVC.swift */,
+				224F4500277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift */,
+			);
+			path = ZYDisplayCurrentVC;
+			sourceTree = "<group>";
+		};
+		2259405727808A4400245BAC /* ZYSwiftDispatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				229DA82C277F15F000559B8E /* ZYSwiftDispatchKit.swift */,
+			);
+			path = ZYSwiftDispatchKit;
+			sourceTree = "<group>";
+		};
+		2259407E27808B8F00245BAC /* ZYSwiftSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				2259407F27808B8F00245BAC /* ZYSwiftSwizzling.swift */,
+			);
+			path = ZYSwiftSwizzling;
+			sourceTree = "<group>";
+		};
 		22CFC4642761F719008AF986 = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +213,7 @@
 		22CFC46F2761F71A008AF986 /* ZYExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
-				22CFC4702761F71A008AF986 /* AppDelegate.swift */,
-				22CFC4722761F71A008AF986 /* SceneDelegate.swift */,
-				22CFC4742761F71A008AF986 /* ViewController.swift */,
+				224F44F4277EC59600F36F3D /* AppDelegate */,
 				22CFC5062768D98F008AF986 /* BaseKit */,
 				22CFC50B2768D9C7008AF986 /* Categorys */,
 				22CFC50C2768D9E2008AF986 /* Resource */,
@@ -86,7 +228,7 @@
 		22CFC5062768D98F008AF986 /* BaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				22CFC4BF27689A5F008AF986 /* ZYTabBarController.swift */,
+				22CFC50F276A038A008AF986 /* ZYBaseViewController.swift */,
 			);
 			path = BaseKit;
 			sourceTree = "<group>";
@@ -94,6 +236,13 @@
 		22CFC5072768D9A6008AF986 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2259405727808A4400245BAC /* ZYSwiftDispatchKit */,
+				22331516278037DE00097CF2 /* WRNavigationBar */,
+				223315092780296D00097CF2 /* ZYSwiftLoadFunction */,
+				2259407E27808B8F00245BAC /* ZYSwiftSwizzling */,
+				224F4506277ED24F00F36F3D /* ZYDisplayCurrentVC */,
+				22274D20277EEE3D0027D4DA /* ZYEnvironmentService */,
+				22274D1F277EEE2E0027D4DA /* ZYButton */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -101,6 +250,8 @@
 		22CFC5082768D9AE008AF986 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				22274D1D277EE68E0027D4DA /* ZYVender.swift */,
+				2233151227802C3A00097CF2 /* ZYMacro.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -108,6 +259,8 @@
 		22CFC5092768D9B7008AF986 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				224F44F5277EC5D600F36F3D /* Main */,
+				224F44F6277EC5DC00F36F3D /* Mine */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -122,6 +275,8 @@
 		22CFC50B2768D9C7008AF986 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				2233150D2780299C00097CF2 /* Foundation */,
+				2233150C2780299000097CF2 /* UIKit */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -194,6 +349,7 @@
 				TargetAttributes = {
 					22CFC46C2761F71A008AF986 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -274,10 +430,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CFC4752761F71A008AF986 /* ViewController.swift in Sources */,
+				229DA82F277F1E7400559B8E /* UIViewController+ZYExtension.swift in Sources */,
+				224F44FB277EC69400F36F3D /* ZYDisplayCurrentVC.swift in Sources */,
+				22274D1E277EE68E0027D4DA /* ZYVender.swift in Sources */,
+				22331519278037DE00097CF2 /* WRNavigationBar.swift in Sources */,
+				224F44F8277EC61300F36F3D /* ZYMineViewController.swift in Sources */,
+				22331515278030E300097CF2 /* UIColor+ZYExtension.swift in Sources */,
+				22CFC510276A038A008AF986 /* ZYBaseViewController.swift in Sources */,
+				2233150B2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift in Sources */,
+				22274D22277EEF160027D4DA /* ZYEnvironmentService.swift in Sources */,
+				22CFC512276A03A6008AF986 /* ZYDemoViewController.swift in Sources */,
+				2233151A278037DE00097CF2 /* WRCustomNavigationBar.swift in Sources */,
+				229DA82D277F15F000559B8E /* ZYSwiftDispatchKit.swift in Sources */,
 				22CFC4712761F71A008AF986 /* AppDelegate.swift in Sources */,
 				22CFC4C027689A5F008AF986 /* ZYTabBarController.swift in Sources */,
+				2259408027808B8F00245BAC /* ZYSwiftSwizzling.swift in Sources */,
 				22CFC4732761F71A008AF986 /* SceneDelegate.swift in Sources */,
+				22CFC50E276A0347008AF986 /* ZYNavigationController.swift in Sources */,
+				2233151327802C3A00097CF2 /* ZYMacro.swift in Sources */,
+				229DA831277F1E8D00559B8E /* UIApplication+ZYExtension.swift in Sources */,
+				224F4501277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift in Sources */,
+				229DA837277F3E1800559B8E /* ZYButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +590,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8248TCVBJH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZYExampleSwift/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -432,9 +607,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
 				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,8 +624,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8248TCVBJH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZYExampleSwift/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -461,9 +641,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
 				PRODUCT_BUNDLE_IDENTIFIER = demo1.ZYExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

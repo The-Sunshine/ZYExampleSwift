@@ -2,7 +2,6 @@ PODS:
   - Alamofire (5.4.4)
   - BetterSegmentedControl (2.0.1)
   - EmptyDataSet-Swift (5.0.0)
-  - ESTabBarController-swift (2.8.0)
   - IQKeyboardManagerSwift (6.5.9)
   - JXSegmentedView (1.2.7)
   - Kingfisher (7.1.2)
@@ -44,13 +43,11 @@ PODS:
   - SwiftyUserDefaults (5.3.0)
   - Then (2.7.0)
   - Toast-Swift (5.0.1)
-  - UINavigation-SXFixSpace (1.2.4)
 
 DEPENDENCIES:
   - Alamofire
   - BetterSegmentedControl
   - EmptyDataSet-Swift
-  - ESTabBarController-swift
   - IQKeyboardManagerSwift
   - JXSegmentedView
   - Kingfisher
@@ -68,14 +65,12 @@ DEPENDENCIES:
   - SwiftyUserDefaults
   - Then
   - Toast-Swift
-  - UINavigation-SXFixSpace
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - BetterSegmentedControl
     - EmptyDataSet-Swift
-    - ESTabBarController-swift
     - IQKeyboardManagerSwift
     - JXSegmentedView
     - Kingfisher
@@ -94,13 +89,11 @@ SPEC REPOS:
     - SwiftyUserDefaults
     - Then
     - Toast-Swift
-    - UINavigation-SXFixSpace
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
   EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
-  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
   Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
@@ -119,8 +112,7 @@ SPEC CHECKSUMS:
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
-  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
 
-PODFILE CHECKSUM: b7ef7fe6176770aa2421bbbab07a7da745a646e9
+PODFILE CHECKSUM: cf1eae3697ba72ea20ee729b401c9fa65dedd1a9
 
 COCOAPODS: 1.11.2
