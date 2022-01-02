@@ -21,6 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         rootViewControllerWithScene(scene)
         
+        debugMonitor()
+       
         //MARK: 键盘处理
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
@@ -38,6 +40,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
 
+    func debugMonitor() {
+        ZYEnvironmentService.prepareEnvironmentLocalURLString(develop: "http://www.develop.com",
+                                                              test: "http://www.test.com",
+                                                              prepareRelease: "http://www.prepareRelease.com",
+                                                              release: "http://www.release.com")
+        
+        ZYEnvironmentService.addOtherServiceDisplayStringArray(array:["other",
+                                                                      ""])
+        
+        print(ZYEnvironmentService.currentEnvironment().description)
+        
+        print(ZYEnvironmentService.currentEnvironmentURLString())
+
+
+
+
+
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

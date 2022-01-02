@@ -13,11 +13,20 @@ class ZYDemoViewController: ZYBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let view = UIView()
+        view.backgroundColor = UIColor.red
+        view.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        self.view.addSubview(view)
+        
+        ZYEnvironmentService.addEnvironmentTapView(tapView: view, changeEnvironmentBlock: {
+            print("修改了")
+        }, changeAfterExit: false)
+        
+
         // Do any additional setup after loading the view.
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-                
     }
     /*
     // MARK: - Navigation

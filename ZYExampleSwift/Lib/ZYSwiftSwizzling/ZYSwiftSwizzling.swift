@@ -18,7 +18,7 @@ import UIKit
          /// 被交换的方法
          let originalSelector = #selector(viewWillAppear(_:))
          let swizzledSelector = #selector(swizzled_viewWillAppear(_:))
-         ZYSwizzling.zy_swizzlkakaingForClass(ViewController.self, originalSelector: originalSelector, swizzledSelector: swizzledSelector)
+         ZYSwizzling.zy_swizzlingForClass(ViewController.self, originalSelector: originalSelector, swizzledSelector: swizzledSelector)
      }()
      
      /// 需要交换的方法
