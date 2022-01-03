@@ -25,17 +25,17 @@ extension UIViewController: ZYSwiftLoadFunctionProtocol {
     /// 需要交换的方法
     @objc func swizzled_viewWillAppear(_ animated: Bool) {
         
-        if !isPrivateVC() {
+        if !isPrivateVC(className: NSStringFromClass(UIViewController.self)) {
             let label = ZYDisplayCurrentVC.shared.noteLabel
             if (label.superview != nil) {
                 label.superview?.bringSubviewToFront(label)
             }
-            
-            guard let objc_class = object_getClass(self) else { return }
-            guard let class_name = NSStringFromClass(objc_class).components(separatedBy: ".").last else {
+
+            let class_name = NSStringFromClass(type(of: self)).components(separatedBy: ".").last ?? ""
+            if isPrivateVC(className: class_name) {
                 return
             }
-            
+
             label.text = ZYDisplayCurrentVC.shared.note + class_name
             label.sizeToFit()
         }
@@ -43,13 +43,30 @@ extension UIViewController: ZYSwiftLoadFunctionProtocol {
         swizzled_viewWillAppear(animated)
     }
     
-    private func isPrivateVC() -> Bool {
-     
-        let classString = NSStringFromClass(UIViewController.self)
-        return (classString == "UIAlertController" ||
-                classString == "_UIAlertControllerTextFieldViewController" ||
-                classString == "UIApplicationRotationFollowingController" ||
-                classString == "UIInputWindowController")
+    private func isPrivateVC(className: String) -> Bool {
+        
+        for value in ZYDisplayCurrentVC.shared.whiteListPrefixVCArray {
+            if value.count == 0 {
+                break
+            }
+            if className.hasPrefix(value) {
+                return true
+            }
+        }
+        
+        for value in ZYDisplayCurrentVC.shared.whiteListVCArray {
+            if value.count == 0 {
+                break
+            }
+            if className == value {
+                return true
+            }
+        }
+
+        return (className == "UIAlertController" ||
+                className == "_UIAlertControllerTextFieldViewController" ||
+                className == "UIApplicationRotationFollowingController" ||
+                className == "UIInputWindowController")
     }
 }
 

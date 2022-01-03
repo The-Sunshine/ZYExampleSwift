@@ -21,7 +21,6 @@ class ZYDemoViewController: ZYBaseViewController {
         ZYEnvironmentService.addEnvironmentTapView(tapView: view, changeEnvironmentBlock: {
             print("修改了")
         }, changeAfterExit: false)
-        
 
         // Do any additional setup after loading the view.
     }

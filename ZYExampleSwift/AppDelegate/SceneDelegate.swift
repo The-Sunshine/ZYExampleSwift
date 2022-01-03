@@ -19,10 +19,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         
-        rootViewControllerWithScene(scene)
-        
         debugMonitor()
-       
+
+        rootViewControllerWithScene(scene)
+               
         //MARK: 键盘处理
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
@@ -49,14 +49,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         ZYEnvironmentService.addOtherServiceDisplayStringArray(array:["other",
                                                                       ""])
         
-        print(ZYEnvironmentService.currentEnvironment().description)
+        print(ZYEnvironmentService.currentEnvironment().rawValue)
         
         print(ZYEnvironmentService.currentEnvironmentURLString())
 
 
-
-
-
+#if DEBUG
+        ZYDisplayCurrentVC.shared.note = "自定义"
+        ZYDisplayCurrentVC.shared.whiteListVCArray = [""]
+        ZYDisplayCurrentVC.shared.whiteListPrefixVCArray = [""]
+        
+        
+        
+#endif
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {

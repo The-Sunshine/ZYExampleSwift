@@ -7,6 +7,7 @@
 #if DEBUG
 
 import UIKit
+import SwiftUI
 
 /// 使用方式
 /// 1.在AppDelegate中重写next，非SceneDelegate
@@ -34,7 +35,10 @@ import UIKit
 class ZYDisplayCurrentVC: NSObject {
 
     @objc public static let shared = ZYDisplayCurrentVC()
-
+    
+    public var whiteListVCArray = Array<String>()
+    public var whiteListPrefixVCArray =  Array<String>()
+    
     public var note = String()
     
     public lazy var noteLabel: UILabel = {
@@ -54,16 +58,21 @@ class ZYDisplayCurrentVC: NSObject {
         label.backgroundColor = UIColor(white: 0, alpha: 0.5)
         label.layer.cornerRadius = 3
         label.layer.masksToBounds = true;
+        addLabel(label: label)
         
+        return label
+    }()
+    
+    private func addLabel(label: UILabel) {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
             let window = self.currentWindow
             if window != nil {
                 window?.addSubview(label)
+            } else {
+                self.addLabel(label: label)
             }
         }
-        
-        return label
-    }()
+    }
     
     private var currentWindow: UIWindow? {
         if #available(iOS 13.0, *) {

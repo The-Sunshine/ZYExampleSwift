@@ -7,22 +7,11 @@
 
 import UIKit
 
-public enum ZYEnvironmentServiceType {
-    case develop
-    case test
-    case prepareRelease
-    case release
-}
-
-extension ZYEnvironmentServiceType {
-    var description: String {
-        switch self {
-        case .develop:          return "开发环境"
-        case .test:             return "测试环境"
-        case .prepareRelease:   return "预发环境"
-        case .release:          return "正式环境"
-        }
-    }
+enum ZYEnvironmentServiceType: String {
+    case develop        = "开发环境"
+    case test           = "测试环境"
+    case prepareRelease = "预发环境"
+    case release        = "正式环境"
 }
 
 class ZYEnvironmentService: NSObject {
@@ -61,8 +50,8 @@ class ZYEnvironmentService: NSObject {
         var type = ZYEnvironmentService.currentEnvironment()
         if !ZYEnvironmentService.shared.typeArray.contains(type) {
             type = ZYEnvironmentService.shared.typeArray.first ?? .develop
-            let typeDesc = ZYEnvironmentService.shared.typeArray.first?.description
-            setUserDefaults(value: typeDesc ?? "", key: ZYEnvironmentService.ZYEnvironmentServiceType_Key)
+            let rawValue = ZYEnvironmentService.shared.typeArray.first?.rawValue
+            setUserDefaults(value: rawValue ?? "", key: ZYEnvironmentService.ZYEnvironmentServiceType_Key)
             setUserDefaults(value: ZYEnvironmentService.shared.urlStringArray.first ?? "", key: ZYEnvironmentService.ZYEnvironmentServiceURLString_Key)
         }
         
@@ -70,7 +59,7 @@ class ZYEnvironmentService: NSObject {
         let urlString = ZYEnvironmentService.shared.urlStringArray[index]
         setUserDefaults(value: urlString, key: ZYEnvironmentServiceURLString_Key)
         
-        ZYEnvironmentService.shared.noteLabel.text = currentEnvironment().description
+        ZYEnvironmentService.shared.noteLabel.text = currentEnvironment().rawValue
 #else
         setUserDefaults(value: release, key: ZYEnvironmentServiceURLString_Key)
 #endif
@@ -86,7 +75,7 @@ class ZYEnvironmentService: NSObject {
         }
 
         for value in ZYEnvironmentService.shared.serviceTypeArray {
-            if value.description == typeString as! String {
+            if value.rawValue == typeString as! String {
                 return value
             }
         }
@@ -158,12 +147,12 @@ class ZYEnvironmentService: NSObject {
         
         let currentType = ZYEnvironmentService.currentEnvironment()
         let url = ZYEnvironmentService.currentEnvironmentURLString()
-        let currentEnvironmentString = "当前环境:" + currentType.description + "-" + url
+        let currentEnvironmentString = "当前环境:" + currentType.rawValue + "-" + url
         let alertController = UIAlertController(title: currentEnvironmentString, message: nil, preferredStyle: .actionSheet)
         
         for (index,type) in typeArray.enumerated() {
             if type != currentType {
-                let title = type.description +  "-" + urlStringArray[index]
+                let title = type.rawValue +  "-" + urlStringArray[index]
                 let action = UIAlertAction(title: title, style: .destructive) { action in
                     let prefix = action.title?.prefix(4) ?? ""
                     self.makeSureChangeEnvionmentAlert(prefixString: String(prefix))
@@ -189,16 +178,16 @@ class ZYEnvironmentService: NSObject {
         var type : ZYEnvironmentServiceType = .develop
         
         for (index,value) in typeArray.enumerated() {
-            if prefixString == value.description {
+            if prefixString == value.rawValue {
                 type = typeArray[index]
             }
         }
         
-        let alertController = UIAlertController(title: "切换环境", message: "是否切换环境到" + type.description, preferredStyle: .alert)
+        let alertController = UIAlertController(title: "切换环境", message: "是否切换环境到" + type.rawValue, preferredStyle: .alert)
         let sureAction = UIAlertAction(title: "确定", style: .destructive) { action in
             
-            ZYEnvironmentService.setUserDefaults(value: type.description, key: ZYEnvironmentService.ZYEnvironmentServiceType_Key)
-            self.noteLabel.text = type.description;
+            ZYEnvironmentService.setUserDefaults(value: type.rawValue, key: ZYEnvironmentService.ZYEnvironmentServiceType_Key)
+            self.noteLabel.text = type.rawValue;
 
             for (index,value) in self.typeArray.enumerated() {
                 if value == type {
@@ -238,17 +227,22 @@ class ZYEnvironmentService: NSObject {
         label.backgroundColor = UIColor(white: 0, alpha: 0.5)
         label.layer.cornerRadius = 3
         label.layer.masksToBounds = true;
-       
+        addLabel(label: label)
+            
+        return label
+    }()
+    
+    private func addLabel(label: UILabel) {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
             let window = self.currentWindow
             if window != nil {
                 window?.addSubview(label)
+            } else {
+                self.addLabel(label: label)
             }
         }
-        
-        return label
-    }()
-    
+    }
+
     //MARK: ---------------------------------------------tool
     private var currentWindow: UIWindow? {
         if #available(iOS 13.0, *) {
