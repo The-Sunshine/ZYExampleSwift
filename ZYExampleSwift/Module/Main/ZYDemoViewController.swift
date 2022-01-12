@@ -13,15 +13,15 @@ class ZYDemoViewController: ZYBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let view = UIView()
-        view.backgroundColor = UIColor.red
+        let view = UIImageView()
         view.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         self.view.addSubview(view)
+        view.image = UIImage.fillColor(color: UIColor.red)
         
         ZYEnvironmentService.addEnvironmentTapView(tapView: view, changeEnvironmentBlock: {
             print("修改了")
         }, changeAfterExit: false)
-
+        
         // Do any additional setup after loading the view.
     }
     

@@ -41,5 +41,11 @@ target 'ZYExampleSwift' do
   
   
 #  https://github.com/DarielChen/iOSTips swift learn
+EVReflection
+U17
+RxSwiftExamples
+LBXMLYFM-Swift
+Moya-ObjectMapper
+XMLYFM
 
 end

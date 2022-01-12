@@ -21,6 +21,7 @@ class ZYBaseViewController: UIViewController {
 
         initNaviBar()
         initUI()
+        loadData()
     }
     
     private func initNaviBar() {
@@ -37,6 +38,8 @@ class ZYBaseViewController: UIViewController {
         // 一行代码搞定导航栏底部分割线是否隐藏
         navBarShadowImageHidden = true;
     }
+    
+    func loadData() {}
     
     func initUI() {}
     
