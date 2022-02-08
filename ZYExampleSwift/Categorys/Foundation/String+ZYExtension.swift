@@ -1,8 +1,8 @@
 //
-//  NSString+ZYExtension.swift
+//  String+ZYExtension.swift
 //  ZYExampleSwift
 //
-//  Created by kaka on 2022/1/8.
+//  Created by zy on 2022/1/8.
 //
 
 import Foundation

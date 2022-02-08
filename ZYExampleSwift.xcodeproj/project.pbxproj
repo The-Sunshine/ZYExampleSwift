@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2210977F27895EE600CED77B /* ZYMacroKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210977E27895EE600CED77B /* ZYMacroKey.swift */; };
 		2210978127895F8D00CED77B /* ZYCategorysHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210978027895F8D00CED77B /* ZYCategorysHeader.swift */; };
-		22271D36278963F700049342 /* NSString+ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22271D35278963F600049342 /* NSString+ZYExtension.swift */; };
+		22271D36278963F700049342 /* String+ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22271D35278963F600049342 /* String+ZYExtension.swift */; };
 		22274D1E277EE68E0027D4DA /* ZYVender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22274D1D277EE68E0027D4DA /* ZYVender.swift */; };
 		22274D22277EEF160027D4DA /* ZYEnvironmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22274D21277EEF160027D4DA /* ZYEnvironmentService.swift */; };
 		2233150B2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233150A2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		2210977E27895EE600CED77B /* ZYMacroKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYMacroKey.swift; sourceTree = "<group>"; };
 		2210978027895F8D00CED77B /* ZYCategorysHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCategorysHeader.swift; sourceTree = "<group>"; };
-		22271D35278963F600049342 /* NSString+ZYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+ZYExtension.swift"; sourceTree = "<group>"; };
+		22271D35278963F600049342 /* String+ZYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ZYExtension.swift"; sourceTree = "<group>"; };
 		22274D1D277EE68E0027D4DA /* ZYVender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYVender.swift; sourceTree = "<group>"; };
 		22274D21277EEF160027D4DA /* ZYEnvironmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYEnvironmentService.swift; sourceTree = "<group>"; };
 		2233150A2780296D00097CF2 /* UIApplication+ZYSwiftLoadFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ZYSwiftLoadFunction.swift"; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		2233150D2780299C00097CF2 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				22271D35278963F600049342 /* NSString+ZYExtension.swift */,
+				22271D35278963F600049342 /* String+ZYExtension.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -478,7 +478,7 @@
 				22CFC4732761F71A008AF986 /* SceneDelegate.swift in Sources */,
 				22CFC50E276A0347008AF986 /* ZYNavigationController.swift in Sources */,
 				2233151327802C3A00097CF2 /* ZYMacro.swift in Sources */,
-				22271D36278963F700049342 /* NSString+ZYExtension.swift in Sources */,
+				22271D36278963F700049342 /* String+ZYExtension.swift in Sources */,
 				229DA831277F1E8D00559B8E /* UIApplication+ZYExtension.swift in Sources */,
 				224F4501277EC96E00F36F3D /* UIViewController+ZYDisplayCurrentVC.swift in Sources */,
 				2259411727895BBA00245BAC /* UIView+ZYExtension.swift in Sources */,
