@@ -17,8 +17,7 @@ var isIphone: Bool {
 
 var isIphoneX: Bool {
     return UIDevice.current.userInterfaceIdiom == .phone &&
-    (max(UIScreen.main.bounds.height, UIScreen.main.bounds.width) == 812 ||
-     max(UIScreen.main.bounds.height, UIScreen.main.bounds.width) == 896)
+    max(UIScreen.main.bounds.height, UIScreen.main.bounds.width) >= 812
 }
 
 //MARK: print

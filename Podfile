@@ -18,6 +18,7 @@ target 'ZYExampleSwift' do
   pod 'Reusable'    # 协议+泛型
   pod 'Toast-Swift' # toast
   pod 'SCLAlertView'# 弹框
+  pod 'TagListView' # 自适应collection 淘宝规格选择
   pod 'JXSegmentedView'         # SegmentedView
   pod 'BetterSegmentedControl'  # SegmentedControl
   pod 'SwiftyUserDefaults'      # NSUserDefaults的封装扩展

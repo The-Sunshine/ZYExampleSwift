@@ -22,6 +22,7 @@ class ZYBaseViewController: UIViewController {
         initNaviBar()
         initUI()
         loadData()
+        
     }
     
     private func initNaviBar() {
