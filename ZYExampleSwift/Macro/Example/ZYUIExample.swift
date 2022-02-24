@@ -72,6 +72,14 @@ import Foundation
  make.bottom.equalTo(0)
  }
  
+ @objc func <#sel#>() {
+    
+ }
+ 
+ detailButton.addTarget(self, action:#selector(<#sel#>(_:)), for:.touchUpInside)
+
+ @objc func <#sel#>(_ button:UIButton) {
+ }
  */
 
 /// UITableView
@@ -110,5 +118,12 @@ import Foundation
  
  */
 
-
+///lazy
+/**
+ lazy var view: UIView = {
+    let view = UIView()
+     return view
+ }()
+ 
+ */
 
