@@ -10,10 +10,10 @@ import UIKit
 
 enum ZYButtonImagePosition : Int{
  
-    case ZYButtonImagePositionTop = 0
-    case ZYButtonImagePositionleft
-    case ZYButtonImagePositionBottom
-    case ZYButtonImagePositionRight
+    case top = 0
+    case left
+    case bottom
+    case right
 }
 
 extension UIButton {
@@ -24,7 +24,7 @@ extension UIButton {
     ///   - title: title
     ///   - type: image 的位置
     ///   - space: 图片文字之间的间距
-    func setImageAndTitle(imageName:String,title:String,type:ZYButtonImagePosition,Space space:CGFloat)  {
+    func setImageWithTitle(imageName:String,title:String,type:ZYButtonImagePosition,Space space:CGFloat)  {
       
         self.setTitle(title, for: .normal)
         self.setImage(UIImage(named:imageName), for: .normal)
@@ -41,20 +41,22 @@ extension UIButton {
         var  labelEdgeInsets :UIEdgeInsets = UIEdgeInsets();
        
         switch type {
-        case .ZYButtonImagePositionTop:
+        case .top:
             imageEdgeInsets = UIEdgeInsets(top: -labelHeight - space/2.0, left: 0, bottom: 0, right: -labelWidth);
             labelEdgeInsets = UIEdgeInsets(top: 0, left: -imageWith, bottom: -imageHeight-space/2.0, right: 0);
             break;
-        case .ZYButtonImagePositionleft:
+        case .left:
                 imageEdgeInsets = UIEdgeInsets(top: 0, left: -space/2.0, bottom: 0, right: space/2.0);
             labelEdgeInsets = UIEdgeInsets(top: 0, left: space/2.0, bottom: 0, right: -space/2.0);
             break;
-        case .ZYButtonImagePositionBottom:
+        case .bottom:
             imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: -labelHeight-space/2.0, right: -labelWidth);
             labelEdgeInsets = UIEdgeInsets(top: -imageHeight-space/2.0, left: -imageWith, bottom: 0, right: 0);
             break;
-        case .ZYButtonImagePositionRight:
-            imageEdgeInsets = UIEdgeInsets(top: 0, left: labelWidth+space/2.0, bottom: 0, right: -labelWidth-space/2.0);
+        case .right:
+            labelWidth += 10
+
+            imageEdgeInsets = UIEdgeInsets(top: 0, left: labelWidth + space / 2.0, bottom: 0, right: -labelWidth - space / 2.0);
             labelEdgeInsets = UIEdgeInsets(top: 0, left: -imageWith-space/2.0, bottom: 0, right: imageWith+space/2.0);
             break;
         }

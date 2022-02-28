@@ -13,7 +13,7 @@ import Foundation
  balanceView.backgroundColor  = <#color#>
  balanceView.layer.cornerRadius =  <#radius#>;
  balanceView.layer.masksToBounds = true
- self.view.addSubview(balanceView)
+ <#view#>.addSubview(balanceView)
  balanceView.snp.makeConstraints { make in
      make.left.equalTo(0)
      make.right.equalTo(0)
@@ -26,7 +26,7 @@ import Foundation
 /// UIImageView
 /**
  let bgIV = UIImageView()
- self.view .addSubview(bgIV)
+ <#view#>.addSubview(bgIV)
  bgIV.image = UIImage(named: "<#name#>")
  balanceView.snp.makeConstraints { make in
      make.left.equalTo(0)
@@ -41,7 +41,7 @@ import Foundation
 /**
  let titleLabel = UILabel()
  titleLabel.text = "<#text#>"
- self.view.addSubview(titleLabel)
+ <#view#>.addSubview(titleLabel)
  titleLabel.textColor = <#color#>
  titleLabel.textAlignment = .center
  titleLabel.font = UIFont.systemFont(ofSize: <#size#>)
@@ -64,7 +64,7 @@ import Foundation
  detailButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: 30+3/2.0, bottom: 0, right: -30-3/2.0);
  detailButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: -5-3/2.0, bottom: 0, right: 5+3/2.0);
  detailButton .addTarget(self, action: #selector(<#sel#>), for: .touchUpInside)
- balanceView.addSubview(detailButton)
+ <#view#>.addSubview(detailButton)
  detailButton.snp.makeConstraints { make in
  make.left.equalTo(0)
  make.right.equalTo(0)
@@ -88,7 +88,7 @@ import Foundation
  tableView.delegate = self;
  tableView.dataSource = self
  tableView.backgroundColor = <#color#>
- self.view .addSubview(tableView)
+ <#view#>.addSubview(tableView)
  tableView.register(<#cellClass#>.classForCoder(), forCellReuseIdentifier: "<#id#>")
  tableView.snp.makeConstraints { make in
  make.left.equalTo(0)
